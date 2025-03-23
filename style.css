@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+}
+
+body {
+    background-color: #6dbda2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 600px;
+    height: 450px;
+    background-color: #fff;
+    border-radius: 10px;
+
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search {
+    padding-top: 0px;
+}
+
+.word {
+    width: 300px;
+    height: 35px;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #6dbda2;
+    font-size: 18px;
+}
+
+.btnSearch {
+    padding: 5px 0;
+    width: 100px;
+    height: 35px;
+    border: none;
+    outline: none;
+    background-color: #6dbda2;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.result {
+    padding: 40px 100px;
+}
+
+.nameWord {
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.aboutWord {
+    font-size: 16px;
+    font-style: italic;
+    padding-bottom: 15px;
+}
+
+.definitionWord {
+    font-size: 20px;
+    text-align: justify;
+    padding-bottom: 15px;
+    
+}
+
+.exampleWord {
+    font-size: 18px;
+    text-align: justify;
+    font-style:oblique;
+    padding-bottom: 15px;
+}
+
+
